@@ -1,0 +1,57 @@
+2019-04-29 12:18:01,667 INFO  QuartzSpringApplication:50 -Starting QuartzSpringApplication on WIN-20180404ARH with PID 7104 (F:\workIdea\spring\quartz-spring\target\classes started by Administrator in F:\workIdea\spring\quartz-spring)
+2019-04-29 12:18:01,716 DEBUG QuartzSpringApplication:53 -Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-29 12:18:01,716 INFO  QuartzSpringApplication:675 -No active profile set, falling back to default profiles: default
+2019-04-29 12:18:02,567 INFO  Http11NioProtocol:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-29 12:18:02,575 INFO  StandardService:173 -Starting service [Tomcat]
+2019-04-29 12:18:02,575 INFO  StandardEngine:173 -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-29 12:18:02,681 INFO  [/]:173 -Initializing Spring embedded WebApplicationContext
+2019-04-29 12:18:02,758 INFO  StdSchedulerFactory:1208 -Using default implementation for ThreadExecutor
+2019-04-29 12:18:02,773 INFO  SchedulerSignalerImpl:61 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-29 12:18:02,773 INFO  QuartzScheduler:229 -Quartz Scheduler v.2.3.1 created.
+2019-04-29 12:18:02,773 INFO  RAMJobStore:155 -RAMJobStore initialized.
+2019-04-29 12:18:02,773 INFO  QuartzScheduler:294 -Scheduler meta-data: Quartz Scheduler (v2.3.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-29 12:18:02,773 INFO  StdSchedulerFactory:1362 -Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2019-04-29 12:18:02,773 INFO  StdSchedulerFactory:1366 -Quartz scheduler version: 2.3.1
+2019-04-29 12:18:02,773 INFO  QuartzScheduler:2293 -JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@aaa0f76
+2019-04-29 12:18:04,352 INFO  QuartzController:25 -aaa----------
+2019-04-29 12:18:04,352 DEBUG QuartzController:26 -cccc----------
+2019-04-29 12:18:04,352 WARN  QuartzController:28 -aaa----------
+2019-04-29 12:18:04,399 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-04-29 12:18:04,399 DEBUG ResourceBundleMessageInterpolator:89 -Loaded expression factory via original TCCL
+2019-04-29 12:18:04,399 DEBUG TraversableResolvers:60 -Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-04-29 12:18:04,399 DEBUG ConfigurationImpl:148 -Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-04-29 12:18:04,399 DEBUG ConfigurationImpl:180 -Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-04-29 12:18:04,399 DEBUG ConfigurationImpl:194 -Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-04-29 12:18:04,399 DEBUG ValidationXmlParser:120 -Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-04-29 12:18:04,399 DEBUG ResourceLoaderHelper:53 -Trying to load META-INF/validation.xml via user class loader
+2019-04-29 12:18:04,399 DEBUG ResourceLoaderHelper:60 -Trying to load META-INF/validation.xml via TCCL
+2019-04-29 12:18:04,399 DEBUG ResourceLoaderHelper:66 -Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-04-29 12:18:04,399 DEBUG ValidationXmlParser:127 -No META-INF/validation.xml found. Using annotation based configuration only.
+2019-04-29 12:18:04,399 DEBUG ValidatorFactoryImpl:578 -HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-04-29 12:18:04,399 DEBUG ValidatorFactoryImpl:579 -HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-04-29 12:18:04,399 DEBUG ValidatorFactoryImpl:580 -HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-04-29 12:18:04,399 DEBUG ValidatorFactoryImpl:581 -HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-04-29 12:18:04,399 DEBUG ValidatorFactoryImpl:582 -HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-04-29 12:18:04,681 INFO  Http11NioProtocol:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-04-29 12:18:04,698 INFO  QuartzSpringApplication:59 -Started QuartzSpringApplication in 3.461 seconds (JVM running for 4.228)
+2019-04-29 12:18:05,665 INFO  QuartzScheduler:547 -Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2019-04-29 12:18:05,665 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:18:33,931 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:19:02,270 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:19:26,846 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:19:50,033 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:20:18,343 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:20:45,486 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:21:10,371 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:21:35,627 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:21:59,862 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:22:24,672 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:22:54,245 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers
+2019-04-29 12:23:21,059 DEBUG QuartzSchedulerThread:291 -batch acquisition of 0 triggers

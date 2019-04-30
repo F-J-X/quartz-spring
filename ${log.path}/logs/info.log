@@ -1,0 +1,52 @@
+[12:28:16:999] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting QuartzSpringApplication on WIN-20180404ARH with PID 10456 (F:\workIdea\spring\quartz-spring\target\classes started by Administrator in F:\workIdea\spring\quartz-spring)
+[12:28:16:999] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[12:28:17:833] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[12:28:17:849] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:28:17:849] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[12:28:17:942] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:28:18:021] [INFO] - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1208) - Using default implementation for ThreadExecutor
+[12:28:18:021] [INFO] - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[12:28:18:021] [INFO] - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229) - Quartz Scheduler v.2.3.1 created.
+[12:28:18:021] [INFO] - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155) - RAMJobStore initialized.
+[12:28:18:021] [INFO] - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294) - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[12:28:18:021] [INFO] - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1362) - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+[12:28:18:021] [INFO] - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1366) - Quartz scheduler version: 2.3.1
+[12:28:18:021] [INFO] - org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293) - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@74ecacc3
+[12:28:18:053] [INFO] - com.ff.spring.quartzspring.web.QuartzController.initQuartz(QuartzController.java:25) - aaa----------
+[12:28:18:053] [WARN] - com.ff.spring.quartzspring.web.QuartzController.initQuartz(QuartzController.java:28) - aaa----------
+[12:28:18:318] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[12:28:18:349] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started QuartzSpringApplication in 1.887 seconds (JVM running for 2.636)
+[12:28:19:327] [INFO] - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547) - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+[12:29:15:382] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting QuartzSpringApplication on WIN-20180404ARH with PID 10620 (F:\workIdea\spring\quartz-spring\target\classes started by Administrator in F:\workIdea\spring\quartz-spring)
+[12:29:15:382] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675) - No active profile set, falling back to default profiles: default
+[12:29:16:207] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[12:29:16:223] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:29:16:223] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[12:29:16:317] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:29:16:379] [INFO] - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1208) - Using default implementation for ThreadExecutor
+[12:29:16:395] [INFO] - org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[12:29:16:395] [INFO] - org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229) - Quartz Scheduler v.2.3.1 created.
+[12:29:16:395] [INFO] - org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155) - RAMJobStore initialized.
+[12:29:16:395] [INFO] - org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294) - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[12:29:16:395] [INFO] - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1362) - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+[12:29:16:395] [INFO] - org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1366) - Quartz scheduler version: 2.3.1
+[12:29:16:395] [INFO] - org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293) - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@2d9dff65
+[12:29:16:426] [INFO] - com.ff.spring.quartzspring.web.QuartzController.initQuartz(QuartzController.java:25) - aaa----------
+[12:29:16:426] [WARN] - com.ff.spring.quartzspring.web.QuartzController.initQuartz(QuartzController.java:28) - aaa----------
+[12:29:16:709] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[12:29:16:787] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started QuartzSpringApplication in 1.859 seconds (JVM running for 2.702)
+[12:29:17:703] [INFO] - org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547) - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
